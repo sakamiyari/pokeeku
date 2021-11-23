@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ガチャ画面</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="popup.css" rel="stylesheet">
+    <style>
+        p{margin: 0em;}
+        body{margin-left: 5em;
+            margin-top: 3em;
+            max-width: 411px;}
+        img{
+            width: 4em;
+        }
+        img#rea{
+            width: 300px;
+            height: 300px;
+        }
+        #isi{
+            width: 2em;
+            height: 2em;
+            float: right;
+        }
+        p#isinokazu{
+            margin: 0.3em;
+            float: right;
+        }
+        input{
+            margin-left: 2em;
+        }
+        #seigen{
+            margin-left: 0em;
+        }
+        p#se{
+            margin-left: 2em;
+        }
+    </style>
+</head>
+<body>
+    <!--※背景未明-->
+    <p id="isinokazu"></p>
+    <img src="../img/isi.png_small" id="isi">
+    <br>
+    <a href="../main.html"><img src="../img/backbutton.png"></a><br>
+    <br>
+    <button id="modalOpen" class="button">単発ガチャ</button>
+    <p id="se"></p>
+　　<div id="easyModal" class="modal">
+　　　　<div class="modal-content">
+　　　　　　<div class="modal-header">
+                <p id="moji"></p>
+　　　　　　　　<span class="modalClose">×</span>
+　　　　　　</div>
+　　　　　　<div class="modal-body" id="modal-body">
+                <img id="rea">
+                <br>
+                <a id="sonota"></a>
+　　　　　　</div>
+　　　　</div>
+　　</div>
+    <script src="popup_in.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
