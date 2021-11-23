@@ -133,7 +133,7 @@ function sumbit(){
                         window.alert("その他のポケモンがどうやら好きなようですね。")
                     }
             }
-                //window.location.assign("../main.html")
+                window.location.assign("../main.html")
             }
         }
     }
