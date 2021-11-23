@@ -133,7 +133,10 @@ function sumbit(){
                         window.alert("その他のポケモンがどうやら好きなようですね。")
                     }
             }
-                //window.location.assign("../main.html")
+            localStorage.setItem("storn","400");
+            window.alert("質問に答えてくれてありがとう");
+            window.alert("初回ボーナス石400個プレゼント");
+            window.location.assign("../main.html")
             }
         }
     }
