@@ -1,0 +1,67 @@
+body{
+    max-width: 411px;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+span{
+    border-radius: 0.2em;
+    margin: auto;
+    font-family: PixelMplus10;
+    font-size: large;
+}
+img{
+    width: 17em;
+}
+#a{
+    width: 31em;
+    height: 10em;
+    margin-left: -5em;
+}
+#img{
+    width: 17em;
+    height: 5em;
+    margin-left: 2em;  
+    border: none;
+}
+#isi{
+    width: 2em;
+    height: 2em;
+    float: right;
+}
+div{
+    color: red;
+    margin: auto;
+    border-style: groove;
+    text-align: center;
+    position: static;
+}
+#hidari{
+   width: 100px;
+   height: 100px;
+   float: left;
+   color: black;
+   border: none;
+   margin-top: 3em;
+   margin-left: 20px;
+}
+p{
+    margin-top: 2em;
+    text-align: center;
+}
+#hyouji{
+    color: black;
+    margin: 0;
+    margin-top: 0.3em;
+    margin-right: 3em;
+    float:right; 
+}
+#messege{
+    border-color: aqua;
+    border-style: double;
+    text-align: center;
+}
+#migi{
+    float:right;
+    border:none;
+    min-width: 20px;
+}

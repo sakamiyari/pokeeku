@@ -1,0 +1,153 @@
+
+body{
+    margin-left: 5em;
+    margin-top: 2em;
+    max-width: 410px;
+}
+span{
+    margin-left: 1em;
+    color: gray;
+    box-shadow: gray;
+}
+.botu1{
+    background-color: gray;
+    animation: 2s sl ease-in-out infinite alternate;
+}
+@keyframes sl {
+    from{
+        background-color: gray;
+        margin-right: 0em;
+    }
+    to{
+        background-color: aqua;
+        margin-right: 10em;
+    }
+}
+
+.botu2{
+    animation: 2s ni infinite alternate ease-in;
+}
+@keyframes ni{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
+.botu3{
+    background-color: seagreen;
+    box-shadow: 3px 5px 10px seagreen;
+    animation: 2s san infinite alternate;
+}
+@keyframes san {
+    form{
+
+    }
+    to{
+        background-color: #c24d4d;
+        box-shadow: 3px 5px 10px #c24d4d;
+    }
+}
+.botu4{
+    color: black;
+    transition: .7s;
+}
+.botu4:hover{
+    color: red;
+    transition: .4s;
+}
+
+.botu6{
+    width: 15%;
+    background-color: green;
+    animation: 3s roku infinite ease-in-out alternate;
+}
+@keyframes roku {
+    from{
+        margin-left: 0%;
+    }
+    to{
+        margin-left: 85%;
+    }
+}
+.botu7 span{
+    transition: .3s;
+}
+.botu7 span:hover:nth-child(-n+2){
+    color: gold;
+    transition: .3s;
+}
+.botu7 span:hover:nth-child(n+4){
+    color: gold;
+    transition: .3s;
+}
+.botu8{
+    display: flex;
+    overflow: hidden;
+    cursor: progress;
+}
+.botu8 span:nth-child(1){
+    display: block;
+    animation: hati 5s infinite ease-in;
+}
+@keyframes hati {
+    from{
+        
+        transform: rotateX(0turn);
+    }
+    to{
+        transform: rotateX(1turn);
+    }
+}
+
+.botu8 span:nth-child(2){
+    animation: hati 5s infinite .06s ease-in;
+}
+.botu8 span:nth-child(3){
+    animation: hati 5s infinite .12s ease-in;
+}
+.botu8 span:nth-child(4){
+    animation: hati 5s infinite .18s ease-in;
+}
+.botu8 span:nth-child(5){
+    animation: hati 5s infinite .24s ease-in;
+}
+.botu8 span:nth-child(6){
+    animation: hati 5s infinite .3s ease-in;
+}
+.botu8 span:nth-child(7){
+    animation: hati 5s infinite .36s ease-in;
+}
+.botu8 span:nth-child(8){
+    animation: hati 5s infinite .42s ease-in;
+}
+.botu8 span:nth-child(9){
+    animation: hati 5s infinite .48s ease-in;
+}
+.botu8 span:nth-child(10){
+    animation: hati 5s infinite .54s ease-in;
+}
+.botu8 span:nth-child(11){
+    animation: hati 5s infinite .6s ease-in;
+}
+.botu8 span:nth-child(12){
+    animation: hati 5s infinite .66s ease-in;
+}
+.botu10{
+    background-color: grey;
+    color: white;
+    overflow: hidden;
+}
+.botu12:hover{
+    animation: juu 5s ease-out forwards;
+}
+@keyframes juu {
+    0%{
+        margin-right: 20em;
+    }
+    100%{
+        background-color: green;
+        margin-right: 0em;
+    }
+}

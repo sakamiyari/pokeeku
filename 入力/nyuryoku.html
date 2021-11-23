@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>質問</title>
+    <style>
+        body{
+        margin-left: 1em;
+        margin-top: 1em;
+        }
+        p{
+            font-size: 1.2em;
+            color: green;
+            font-family: PixelMplus10;
+            border-radius: unset;
+            border-bottom: solid grey;
+        }
+        .sentakusi{
+            color: black;
+           
+            border-bottom: none;
+            font-size: 0.1em;
+        }
+        h3{
+            color: black;
+            font-family: PixelMplus10;
+            border-radius: unset;
+            border-bottom: solid grey;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        ようこそ!<br/>
+        ここはポケモンたちの世界に通じる入り口だ!<br/>
+        冒険に出る前に、きみにいくつか質問があるんだ<br/>
+        素直な気持ちで答えてくれ!<br/>
+        回答した後は送信ボタンを忘れずにね!<br/>
+    </p>
+    <h2>では・・・質問スタート!</h2>
+    <form>
+    <p>君の名前は?</p>
+    <input type="text" required placeholder="クレハ">
+    <br>
+    <p>君の性別は?</p>
+    <input type="radio" name="seibetu" checked>オス・男性
+    <br>
+    <input type="radio" name="seibetu">メス・女性
+    <br>
+    <input type="radio" name="seibetu">性別不明・その他
+    <br>
+    <p>希望ポケモンは？(複数選択可)</p>
+    <input type="checkbox" name="husi">フシギダネ
+    <input type="checkbox" name="hito">ヒトカゲ
+    <input type="checkbox" name="zeni">ゼニガメ
+    <br>
+    <input type="checkbox" name="chiko">チコリータ
+    <input type="checkbox" name="hino">ヒノアラシ
+    <input type="checkbox" name="wani">ワニノコ
+    <br>
+    <input type="checkbox" name="kimo">キモリ
+    <input type="checkbox" name="atya">アチャモ
+    <input type="checkbox" name="gorou">ミズゴロウ
+    <br>
+    <input type="checkbox" name="nae">ナエトル
+    <input type="checkbox" name="hiko">ヒコザル
+    <input type="checkbox" name="pocha">ポッチャマ
+    <br>
+    <input type="checkbox" name="tuta">ツタージャ
+    <input type="checkbox" name="poka">ポカブ
+    <input type="checkbox" name="miju">ミジュマル
+    <br>
+    <input type="checkbox" name="hari">ハリマロン
+    <input type="checkbox" name="foko">フォッコ
+    <input type="checkbox" name="kero">ケロマツ
+    <br>
+    <input type="checkbox" name="moku">モクロー
+    <input type="checkbox" name="nya">ニャビ―
+    <input type="checkbox" name="ashi">アシマリ
+    <br>
+    <input type="checkbox" name="saru">サルノリ
+    <input type="checkbox" name="bani">ヒバニー
+    <input type="checkbox" name="meson">メッソン
+    <br>
+    <input type="checkbox" name="pokemon">ピカチュウ
+    <input type="checkbox" name="pokemon">リオル
+    <input type="checkbox" name="pokemon">イーブイ
+    <br>
+    <input type="checkbox" name="pokemon">その他
+    <br>
+    <textarea name="pokemon" placeholder="カラカラ、コリンク"></textarea>
+    <p>波動の色は?</p>
+    <select>
+        <option>げんきなイエロー</option>
+        <option>パワフルなオレンジ</option>
+        <option selected>あかるいグリーン</option>
+        <option>さわやかなグリーン</option>
+        <option>あざやかなピンク</option>
+        <option>ちてきなマリンブルー</option>
+        <option>しぶみのあるシルバー</option>
+        <option>かれんなバイオレット</option>
+        <option>ふんわりとしたピンク</option>
+        <option>ふかみのあるグリーン</option>
+        <option>おちついたブラウン</option>
+        <option>クールなスカイブルー</option>
+        <option>きれいなアクアブルー</option>
+        <option>やさしいミントブルー</option>
+        <option>しんぴてきなパープル</option>
+        <option>もえるようなレッド</option>
+    </select>
+</form>
+    <p>送信</p>
+    <input type="submit" value="送信する" onclick="sumbit()">
+    <script src="jouhou.js"></script>
+</body>
+</html>
