@@ -58,6 +58,10 @@ function sumbit(){
             ng_flag=1;
             window.alert("恐れ入りますが、一文字の名前にすることはできません");
         }
+        if(namae_kuuhaku.length>6){
+            ng_flag=1;
+            window.alert("恐れ入りますが、六文字を超える名前にすることはできません");
+        }
         if(ng_flag==0){
                 //  フラグが0(つまり、NGワードに引っかからなかったもの)で実行する
             if(window.confirm("以後の名前が「"+namae+"」になります。よろしいでしょうか。")){
@@ -132,7 +136,7 @@ function sumbit(){
                     }else{
                         window.alert("その他のポケモンがどうやら好きなようですね。")
                     }
-            }
+                }
             localStorage.setItem("storn","400");
             window.alert("質問に答えてくれてありがとう");
             window.alert("初回ボーナス石400個プレゼント");
